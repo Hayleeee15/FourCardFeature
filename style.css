@@ -1,0 +1,112 @@
+:root{
+    --team-box-line: hsl(0, 78%, 62%);
+    --calculator-box-line: hsl(212, 86%, 64%);
+    --karma-box-line: hsl(34, 97%, 64%);
+    --supervisor-box-line: hsl(180, 62%, 55%);
+    --bg-color: hsl(0, 0%, 100%);
+    --drop-shadow-color: hsl(212, 6%, 44%);
+    --header-color: hsl(234, 12%, 34%);
+    --paragraph-color: hsl(212, 6%, 44%);
+}
+
+/* Double Check this is correct*/
+@font-face {
+    font-family: 'Poppins';
+    src: url('https://fonts.google.com/specimen/Poppins') format('woff2');
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    background-color: var(--bg-color);
+    font-family: 'Poppins', sans-serif;
+    font-size: .9375rem;
+    color: var(--paragraph-color);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    padding: 2rem;
+}
+
+.intro {
+    text-align: center;
+    
+    max-width: 30rem;
+}
+
+h2, h3 {
+    color: var(--header-color);
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 200;
+    color: var(--paragraph-color);
+    line-height: 125%;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 150%;
+
+    margin-bottom: 1rem;
+}
+
+.cards {   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.supervisor, .calculator, .karma, .team-builder {
+    border-radius: 0.5rem;
+    box-shadow: 0 1rem 1rem var(--drop-shadow-color);
+    padding: 2rem;
+    width: 100%;
+    max-width: 20rem;
+}
+
+@container (min-width: 40rem) {
+    .cards {
+        flex-direction: row;
+    }
+}
+
+
+/*Fix layout*/
+footer { 
+    font-size: 11px; 
+    text-align: center; 
+
+    position: absolute;
+    bottom: 1rem;
+}
+
+footer a { 
+    color: var(--team-box-line);
+    text-decoration: none;
+}
