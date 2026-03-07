@@ -1,3 +1,7 @@
+### March 7th, 2026
+
+Updated the cards using grid to haave the diamond apperance
+
 ### March 1, 2026
 
 To start the project off, I created a root and css default
