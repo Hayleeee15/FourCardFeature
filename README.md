@@ -1,6 +1,6 @@
 ### March 7th, 2026
 
-Updated the cards using grid to haave the diamond apperance
+Updated the cards using grid to have the diamond apperance
 
 ### March 1, 2026
 
