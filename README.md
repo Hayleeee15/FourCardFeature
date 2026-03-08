@@ -1,7 +1,10 @@
 # Four Card Feature 🚀
 
 ## Overview
-This is a simple four card feature built with grid to help get the "diamond" layout. (WIP)
+This is a simple four card feature built with grid to help get the "diamond" layout for desktop.
+
+Built to be responsive depending on device size.
+(WIP)
 
 ### Built With
 🔴 Semantic HTML
