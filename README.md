@@ -1,3 +1,34 @@
+# Four Card Feature 🚀
+
+## Overview
+This is a simple four card feature buitl with grid to help get the "diamond" layout. (WIP)
+
+### Built With
+🔴 Semantic HTML
+
+🔴 CSS Custom Properties
+
+🔴 CSS Grid
+
+### Preview
+
+<div align="left">
+  <div>
+    <b>Mobile Design:</b>
+  </div>
+  <div>
+  <img src="./design/FourCardFeat-mobile.png" alt="Mobile Preview" width="250">
+  </div>
+  <div>
+    <b>Desktop Design:</b>
+  </div>
+  <div>
+    <img src="./design/FourCardFeat-desktop.png" alt="Desktop Preview" width="500">
+  </div>
+</div>
+
+## Update Progress
+
 ### March 7th, 2026
 
 Updated the cards using grid to have the diamond apperance
