@@ -1,7 +1,7 @@
 # Four Card Feature 🚀
 
 ## Overview
-This is a simple four card feature buitl with grid to help get the "diamond" layout. (WIP)
+This is a simple four card feature built with grid to help get the "diamond" layout. (WIP)
 
 ### Built With
 🔴 Semantic HTML
@@ -23,7 +23,7 @@ This is a simple four card feature buitl with grid to help get the "diamond" lay
     <b>Desktop Design:</b>
   </div>
   <div>
-    <img src="./design/FourCardFeat-desktop.png" alt="Desktop Preview" width="500">
+    <img src="./design/FourcardFeat-desktop.png" alt="Desktop Preview" width="500">
   </div>
 </div>
 
